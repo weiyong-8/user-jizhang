@@ -158,6 +158,8 @@
 
 ## 七、开发环境说明
 
+- **云端仓库**：https://github.com/weiyong-8/user-jizhang（私有仓库；推送 main 分支会自动触发 Windows 打包流水线）
+- **GitHub 账号**：weiyong-8（gh CLI 已授权，含 workflow 权限；推送前需先开启代理 127.0.0.1:7897 并 export https_proxy）
 - **项目代码目录**：`/Users/weiyong/记账app/user-jizhang/`（本文档所在文件夹）
 - **启动方式**：在项目文件夹下执行 `./dev.sh`（脚本会强制使用新版 Node 24，避免旧版 Node 14 干扰）
 - **已安装环境**：Node 24（nvm 安装，默认版本已设为 24）、Rust 1.97（Homebrew 安装）、Xcode 命令行工具
