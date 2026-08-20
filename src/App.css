@@ -1,0 +1,147 @@
+:root {
+  font-family: "PingFang SC", "Microsoft YaHei", -apple-system, sans-serif;
+  background-color: #f5f6f8;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: #f5f6f8;
+}
+
+.app-layout {
+  min-height: 100vh;
+}
+
+.app-sider {
+  border-right: 1px solid #f0f0f0;
+}
+
+.app-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 56px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.app-content {
+  padding: 8px 24px 48px;
+}
+
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.form-card {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.recent-card,
+.filter-card,
+.table-card {
+  margin-top: 20px;
+}
+
+.stat-row,
+.chart-card,
+.detail-card {
+  margin-top: 16px;
+}
+
+.backup-card {
+  margin-top: 20px;
+}
+
+.backup-desc {
+  color: #595959;
+  max-width: 560px;
+  margin-bottom: 12px;
+}
+
+.chart-tip {
+  color: #898781;
+  font-size: 12px;
+}
+
+.empty-tip {
+  color: #8c8c8c;
+  text-align: center;
+  padding: 12px 0;
+}
+
+.expense-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.expense-main {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.expense-cat {
+  font-weight: 500;
+}
+
+.expense-note {
+  color: #8c8c8c;
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.expense-right {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.expense-amount {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.expense-date {
+  color: #8c8c8c;
+  font-size: 12px;
+}
+
+.amount {
+  font-weight: 600;
+}
+
+.dim {
+  color: #bfbfbf;
+}
+
+.total-line {
+  text-align: right;
+  margin-top: 12px;
+  padding-right: 8px;
+  color: #595959;
+}
+
+.total-amount {
+  font-size: 18px;
+  font-weight: 600;
+  color: #cf1322;
+  margin-left: 6px;
+}
