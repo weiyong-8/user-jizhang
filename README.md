@@ -13,7 +13,17 @@
 
 ## 界面截图
 
-（待补充）
+| 账单列表 | 记一笔花销 |
+|:---:|:---:|
+| ![账单列表](screenshots/bill-list.png) | ![记一笔花销](screenshots/add-expense.png) |
+
+| 分类管理 | 月度统计 |
+|:---:|:---:|
+| ![分类管理](screenshots/categories.png) | ![月度统计](screenshots/statistics.png) |
+
+| 数据备份 |
+|:---:|
+| ![数据备份](screenshots/backup.png) |
 
 ## 技术栈
 
